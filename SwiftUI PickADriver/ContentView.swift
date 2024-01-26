@@ -6,16 +6,26 @@
 //
 
 import SwiftUI
+import SwiftData
 
 struct ContentView: View {
+    @Query var classes: [ClassData]
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack {
+            List {
+                ForEach(classes) { classData in
+                    NavigationLink(destination: StudentListView(classData: classData))
+                    {
+                        Text("Period: \(classData.periodNumber)")
+                    }
+                }
+            }
+            .navigationTitle("Class Rosters")
+            .padding(10)
+            
+            AddClassView()
         }
-        .padding()
     }
 }
 

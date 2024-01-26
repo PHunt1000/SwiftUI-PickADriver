@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		650092092B6442FF007B7598 /* PopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650092082B6442FF007B7598 /* PopoverView.swift */; };
 		65FAFB5A2B640A17005E22D5 /* SwiftUI_PickADriverApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FAFB592B640A17005E22D5 /* SwiftUI_PickADriverApp.swift */; };
 		65FAFB5C2B640A17005E22D5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FAFB5B2B640A17005E22D5 /* ContentView.swift */; };
 		65FAFB5E2B640A1A005E22D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65FAFB5D2B640A1A005E22D5 /* Assets.xcassets */; };
 		65FAFB612B640A1A005E22D5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65FAFB602B640A1A005E22D5 /* Preview Assets.xcassets */; };
+		65FAFB682B640E4B005E22D5 /* ClassData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FAFB672B640E4B005E22D5 /* ClassData.swift */; };
+		65FAFB6A2B641FD0005E22D5 /* AddClassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FAFB692B641FD0005E22D5 /* AddClassView.swift */; };
+		65FAFB6C2B6434CF005E22D5 /* StudentListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FAFB6B2B6434CF005E22D5 /* StudentListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		650092082B6442FF007B7598 /* PopoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverView.swift; sourceTree = "<group>"; };
 		65FAFB562B640A17005E22D5 /* SwiftUI PickADriver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI PickADriver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65FAFB592B640A17005E22D5 /* SwiftUI_PickADriverApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_PickADriverApp.swift; sourceTree = "<group>"; };
 		65FAFB5B2B640A17005E22D5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		65FAFB5D2B640A1A005E22D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65FAFB602B640A1A005E22D5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		65FAFB672B640E4B005E22D5 /* ClassData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassData.swift; sourceTree = "<group>"; };
+		65FAFB692B641FD0005E22D5 /* AddClassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddClassView.swift; sourceTree = "<group>"; };
+		65FAFB6B2B6434CF005E22D5 /* StudentListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				65FAFB592B640A17005E22D5 /* SwiftUI_PickADriverApp.swift */,
 				65FAFB5B2B640A17005E22D5 /* ContentView.swift */,
+				65FAFB692B641FD0005E22D5 /* AddClassView.swift */,
+				65FAFB6B2B6434CF005E22D5 /* StudentListView.swift */,
+				650092082B6442FF007B7598 /* PopoverView.swift */,
+				65FAFB672B640E4B005E22D5 /* ClassData.swift */,
 				65FAFB5D2B640A1A005E22D5 /* Assets.xcassets */,
 				65FAFB5F2B640A1A005E22D5 /* Preview Content */,
 			);
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				650092092B6442FF007B7598 /* PopoverView.swift in Sources */,
 				65FAFB5C2B640A17005E22D5 /* ContentView.swift in Sources */,
+				65FAFB682B640E4B005E22D5 /* ClassData.swift in Sources */,
+				65FAFB6C2B6434CF005E22D5 /* StudentListView.swift in Sources */,
 				65FAFB5A2B640A17005E22D5 /* SwiftUI_PickADriverApp.swift in Sources */,
+				65FAFB6A2B641FD0005E22D5 /* AddClassView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
